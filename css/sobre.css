@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(245, 205, 224);
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    margin-left: 50px;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.primeiro-paragrafo {
+    width: 800px;
+    font-size: 18px;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.imagem{
+    display: flex;
+    justify-content: right;
+    margin-right: 150px;
+}
+
+img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1rem black;
+}
+
+.segundo-paragrafo{
+    width: 900px;
+    font-size: 18px;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
